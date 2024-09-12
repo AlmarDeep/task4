@@ -1,0 +1,13 @@
+.cardsection{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     padding-left: 20px;
+}
+@media screen and (max-width:992px) {
+    .cardsection{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

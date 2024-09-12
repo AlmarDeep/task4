@@ -1,0 +1,51 @@
+.TestimonialsCards {
+  margin-left: 50px;
+  display: flex;
+
+}
+
+.card-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding-top: 300px;
+  justify-content: center;
+}
+
+.pagination a {
+  background-color: white;
+  border: 1px solid #3fbbc0;
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  text-indent: -9999px;
+
+}
+
+.pagination .page-item.active .page-link {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #3fbbc0;
+  text-indent: -9999px;
+ 
+}
+
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+}

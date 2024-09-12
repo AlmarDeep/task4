@@ -1,0 +1,21 @@
+.iconswithtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+.sicon {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0 25px 0 rgb(0, 0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:992px) {
+    .iconswithtext{
+        width: 400px;
+    }
+}

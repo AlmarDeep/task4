@@ -1,0 +1,10 @@
+.foricon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:#3fbbc0 dotted 1px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}

@@ -1,0 +1,17 @@
+.Feature{
+    display: flex;
+    justify-content: center;
+ 
+  
+}
+@media screen and (max-width:992px) {
+    .Feature{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .Feature img{
+        width: 90vw;
+    }
+}

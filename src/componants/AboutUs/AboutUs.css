@@ -1,0 +1,26 @@
+.videosection{
+    display: flex;
+   justify-content: center;
+   gap: 50px;
+
+}
+.videosection ul {
+    list-style: none;
+    text-align: left;
+}
+.mycards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+}
+
+@media screen and (max-width:992px) {
+    .videosection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .videosection img{
+        width: 90vw;
+    }
+}

@@ -1,0 +1,11 @@
+.AddAnAppointment{
+    background-color: #f7fcfc;
+    padding-top: 30px;
+}
+.forms{
+  display: flex;   
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+}
